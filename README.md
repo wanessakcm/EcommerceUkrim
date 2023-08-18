@@ -26,4 +26,9 @@ Projeto autoral desenvolvido como pré requisito para finalização do  primeiro
   
 - Sair
 ***
+![image](https://github.com/wanessakcm/EcommerceUkrim/assets/131920943/38790e23-40ae-46f4-9737-f7442fc7715b)
+***
+### ⚙️ Tecnologias utilizadas :
+
+- **Desenvolvido no [STS](https://spring.io/tools)**
 
