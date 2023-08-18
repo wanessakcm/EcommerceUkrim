@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class ProdutosOrganicos {
 	
 	private String nome;
-	private double preco;
+	private float preco;
 	private boolean emPromocao;
 	
-	public ProdutosOrganicos(String nome, double preco, boolean emPromocao) {
+	public ProdutosOrganicos(String nome, float preco, boolean emPromocao) {
 		this.nome = nome;
 		this.preco = preco;
 		this.emPromocao = emPromocao;
@@ -22,11 +22,11 @@ public class ProdutosOrganicos {
 		this.nome = nome;
 	}
 
-	public double getPreco() {
+	public float getPreco() {
 		return preco;
 	}
 
-	public void setPreco(double preco) {
+	public void setPreco(float preco) {
 		this.preco = preco;
 	}
 
@@ -39,8 +39,8 @@ public class ProdutosOrganicos {
 	}
 	
 	public void mostrarInformacoes() {
-		System.out.println("\nProduto:"+getNome());
-		System.out.println("\nPreço:  - R$"+getPreco());
+		System.out.println("\nProduto: "+getNome());
+		System.out.println("\nPreço:  - R$ "+getPreco());
 		System.out.println("\n------------------------");
 		
 	}
